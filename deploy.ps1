@@ -2,7 +2,7 @@
 param (
     [Parameter()]
     [String]
-    $ESTemplateUrl = 'https://raw.githubusercontent.com/navgov/adventureworks/master/armTemplates/es-hubspoke.json',
+    $ESTemplateUrl = 'https://raw.githubusercontent.com/navgov-dev/arm-es-adventureworks/master/es-hubspoke.json',
     $location = "westeurope",
     $paramFileUrl = ".\es-hubspoke.parameters.json"
 )
