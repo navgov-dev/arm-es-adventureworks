@@ -18,7 +18,7 @@
             "value": "Yes"
         },
         "enableAsc": {
-            "value": "No"
+            "value": "Standard"
         },
         "enableSqlAudit": {
             "value": "No"
