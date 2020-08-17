@@ -1,0 +1,72 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "enterpriseScaleCompanyPrefix": {
+            "value": "ES-AW"
+        },
+        "managementSubscriptionId": {
+            "value": "c2cb4316-9210-4746-8416-5545f79206a1"
+        },
+        "connectivitySubscriptionId": {
+            "value": "23e5f7dd-02b5-4f81-8647-961797a7ae68"
+        },
+        "lzSubscriptionId": {
+            "value": "c1e4f8d2-5aaa-4a7b-852e-19910622e3c4"
+        },
+        "enableLogAnalytics": {
+            "value": "Yes"
+        },
+        "enableAsc": {
+            "value": "No"
+        },
+        "enableSqlAudit": {
+            "value": "No"
+        },
+        "enableSqlEncryption": {
+            "value": "No"
+        },
+        "enableVmBackup": {
+            "value": "No"
+        },
+        "denyRdp": {
+            "value": "No"
+        },
+        "enableStorageHttps": {
+            "value": "No"
+        },
+        "denyIpForwarding": {
+            "value": "No"
+        },
+        "denySubnetWithoutNsg": {
+            "value": "No"
+        },
+        "enableHub": {
+            "value": "Yes"
+        },
+        "enableAzFw": {
+            "value": "Yes"
+        },
+        "enableVpnGw": {
+            "value": "No"
+        },
+        "enableErGw": {
+            "value": "No"
+        },
+        "vpnGwType": {
+            "value": "RouteBased"
+        },
+        "subnetMaskForAzFw": {
+            "value": "192.168.0.0/26"
+        },
+        "subnetMaskForGw": {
+            "value": ""
+        },
+        "location": {
+            "value": "westeurope"
+        },
+        "addressPrefix": {
+            "value": "192.168.0.0/24"
+        }
+    }
+}
